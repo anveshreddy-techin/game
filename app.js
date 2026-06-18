@@ -33,7 +33,7 @@ else if (
     // user wins
     userScore++;
     userScorePara.innerText=userScore
-    msg.innerText="You Won Sukesh"
+     msg.innerText="You Won Sukesh"
     // msg.innerText=`you Won! Your ${userChoice} beats ${compChoice}`
      msg.style.backgroundColor ="green"
 }
@@ -41,7 +41,7 @@ else {
     // computer wins
     comScore++;
     compScorePara.innerText=comScore
-    msg.innerText="You lost Sukesh(Fuck-off)"
+    msg.innerText="You lost Sukesh"
     msg.style.backgroundColor ="red"
     // msg.innerText=`you lost!${compChoice} beats your ${userChoice}`
 }

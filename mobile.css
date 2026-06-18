@@ -1,0 +1,56 @@
+/* Mobile View */
+@media (max-width: 768px){
+
+    h1{
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        padding: 1rem;
+    }
+
+    .choices{
+        gap: 1rem;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+    }
+
+    .choice{
+        height: 120px;
+        width: 120px;
+    }
+
+    .choice img,
+    img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .scoreboard{
+        gap: 2rem;
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    #user-score,
+    #comp-score{
+        font-size: 3rem;
+    }
+
+    .msgcontainer{
+        margin-top: 2rem;
+        padding: 0 1rem;
+    }
+
+    #msg{
+        display: inline-block;
+        font-size: 1.2rem;
+        max-width: 90%;
+        line-height: 1.5;
+    }
+}
+
+/* Small Phones */
+@media (max-width: 480px){
+
+    h1{
+        font-size: 1.4rem;
+    }}
